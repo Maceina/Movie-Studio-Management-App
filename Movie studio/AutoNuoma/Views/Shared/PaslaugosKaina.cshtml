@@ -1,0 +1,33 @@
+﻿@model AutoNuoma.Models.PaslaugosKaina
+
+   
+<div class="form-horizontal">
+    <h4>PaslaugosKaina</h4>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.fk_paslauga)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.galiojaNuo, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.galiojaNuo, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.galiojaNuo, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    @*<div class="form-group">
+        @Html.LabelFor(model => model.galiojaIki, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.galiojaIki, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.galiojaIki, "", new { @class = "text-danger" })
+        </div>
+    </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.kaina, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.kaina, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.kaina, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+</div>

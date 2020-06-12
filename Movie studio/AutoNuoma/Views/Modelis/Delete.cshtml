@@ -1,0 +1,47 @@
+﻿@model AutoNuoma.ViewModels.ModelisEditViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Irangos šalinimas</h2>
+
+<h3>Ar tikrai norite pašalinti iranga?</h3>
+<div>
+    <h4>Irangos šalinimas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.pavadinimas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pavadinimas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fk_marke)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fk_marke)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        @if (ViewBag.naudojama !=null)
+        {
+            <h5>ViewBag.naudojama</h5>
+        }
+        else
+        {
+            <input type="submit" value="Šalinti" class="btn btn-danger" />
+        }
+        @Html.ActionLink("Atgal į sąrašą", "Index", "Modelis", new { @class="btn btn-default"})
+    </div>
+    }
+</div>

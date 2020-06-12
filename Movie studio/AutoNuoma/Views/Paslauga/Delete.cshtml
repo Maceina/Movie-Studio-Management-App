@@ -1,0 +1,32 @@
+﻿@model AutoNuoma.ViewModels.PaslaugaEditViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Paslaugos šalinimas</h2>
+
+<h3>Ar tikrai norite ištrinti paslaugą?</h3>
+<div>
+    <h4>Paslaugos šalinimas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.paslauga.id)
+
+        <div class="form-actions no-color">
+            @if (ViewBag.naudojama != null)
+            {
+                <h5 style="color:red">@ViewBag.naudojama</h5>
+            }
+            else
+            {
+                <input type="submit" value="Delete" class="btn btn-danger" /> 
+            }
+            @Html.ActionLink("Atgal į sąrašą", "Index", "Paslauga", new { @class="btn btn-default"})
+        </div>
+    }
+</div>

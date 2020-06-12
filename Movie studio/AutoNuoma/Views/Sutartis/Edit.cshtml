@@ -1,0 +1,265 @@
+﻿@model AutoNuoma.ViewModels.SutartisEditViewModel
+
+@{
+    ViewBag.Title = "Sutarties redagavimas";
+
+    var psl_k_count = 0;
+}
+
+<h2>Sutarties redagvimas</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Sutarties keitimas</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.nr)
+
+        <fieldset>
+            <legend>Sutarties informacija</legend>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.sutartiesData, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.sutartiesData, new { htmlAttributes = new { @class = "form-control date-picker" } })
+                    @Html.ValidationMessageFor(model => model.sutartiesData, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fk_klientas, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.fk_klientas, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.fk_klientas, Model.KlientaiList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.fk_klientas, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fk_darbuotojas, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.fk_darbuotojas, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.fk_darbuotojas, Model.DarbuotojaiList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.fk_darbuotojas, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.nuomosDataLaikas, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.nuomosDataLaikas, new { htmlAttributes = new { @class = "form-control datetime-picker" } })
+                    @Html.ValidationMessageFor(model => model.nuomosDataLaikas, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.planuojamaGrDataLaikas, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.planuojamaGrDataLaikas, new { htmlAttributes = new { @class = "form-control datetime-picker" } })
+                    @Html.ValidationMessageFor(model => model.planuojamaGrDataLaikas, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.faktineGrDataLaikas, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.faktineGrDataLaikas, new { htmlAttributes = new { @class = "form-control datetime-picker" } })
+                    @Html.ValidationMessageFor(model => model.faktineGrDataLaikas, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.busena, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.busena, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.busena, Model.BusenosList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.busena, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.kaina, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.kaina, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.kaina, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Bendra kaina su paslaugomis</label>
+                <div class="col-md-10">
+                    <span id="bendra_kaina"> @ViewBag.bendraSuma EUR</span>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Automobilio informacija</legend>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fk_automobilis, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.fk_automobilis, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.fk_automobilis, Model.AutomobiliaiList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.fk_automobilis, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fk_paemimoVieta, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.fk_paemimoVieta, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.fk_paemimoVieta, Model.VietosList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.fk_paemimoVieta, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.pradineRida, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.pradineRida, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.pradineRida, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.degaluKiekisPaimant, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.degaluKiekisPaimant, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.degaluKiekisPaimant, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.fk_grazinimoVieta, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @*@Html.EditorFor(model => model.fk_grazinimoVieta, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.DropDownListFor(model => model.fk_grazinimoVieta, Model.VietosList, "--------------", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.fk_grazinimoVieta, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.galineRida, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.galineRida, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.galineRida, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.degaluKiekisGrazinant, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.degaluKiekisGrazinant, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.degaluKiekisGrazinant, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+        </fieldset>
+
+        @{if (Model.paslaugos != null)
+            {
+                psl_k_count = Model.paslaugos.Count;
+            }
+            else
+            {
+                psl_k_count = 0;
+            }
+        }
+
+        <fieldset>
+            <legend>Papildomos paslaugos</legend>
+
+            <table class="table table-responsive" id="paslaugos_tbl">
+                <thead>
+                    <tr>
+                        <th>Paslauga</th>
+                        <th style="width: 80px;">Kiekis</th>
+                        <th style="width: 80px"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{for (int i = 0; i < Model.paslaugos.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    <span class="text-hide sel_element" style="display: none;">@Model.paslaugos[i].fk_key</span>
+                                    @Html.HiddenFor(model => model.paslaugos[i].fk_sutartis)
+                                    @Html.HiddenFor(model => model.paslaugos[i].fk_paslauga)
+                                    @Html.HiddenFor(model => model.paslaugos[i].fk_kainaGaliojaNuo)
+                                    @Html.HiddenFor(model => model.paslaugos[i].kaina)
+                                    @Html.DropDownListFor(model => model.paslaugos[i].fk_key, Model.UzsPaslaugosList, "--------------", new { @class = "form-control" })
+                                </td>
+                                <td>@Html.EditorFor(model => model.paslaugos[i].kiekis, new { htmlAttributes = new { @class = "form-control" } })</td>
+                                <td><button type="button" class="btn btn-danger" onclick="salinti(this)">šalinti</button></td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+            <input type="hidden" disabled value="@psl_k_count" id="hCount" />
+            <button type="button" id="prideti" class="btn btn-default pull-right" onclick="uzsakyti($('#hCount').val());"><i class="glyphicon-plus-sign"></i> Pridėti</button>
+        </fieldset>
+
+        <div class="form-group" style="margin-top: 5px;">
+            <div class="col-md-10">
+                <input type="submit" value="Išsaugoti" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Atgal į sąrašą »", "Index", "Sutartis", new { @class="btn btn-default"})
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        function uzsakyti(sk) {
+            var tmp_row = `<tr>
+                                <td>
+                                    <span class="text-hide sel_element"></span>
+                                    @Html.DropDownList("paslaugos[0].fk_key", Model.UzsPaslaugosList, "--------------", new { @class = "form-control" })
+                                </td>
+                                <td><input class="form-control text-box single-line" data-val="true" data-val-number="The field kiekis must be a number." data-val-required="The kiekis field is required." id="paslaugos_0__kiekis" name="paslaugos[0].kiekis" type="number" value=""></td>
+                                <td><button type="button" class="btn btn-danger" onclick="salinti(this)">šalinti</button></td>
+                            </tr>`;
+
+            var new_tmp_row = tmp_row.replace(/\[(0)\]/g, "[" + sk + "]");
+            new_tmp_row = new_tmp_row.replace(/\_(0)\_/g, "_" + sk + "_");
+
+            $("#paslaugos_tbl tr:last").after(new_tmp_row);
+
+            $('#hCount').val(Number($('#hCount').val()) + 1);
+
+        }
+
+        function salinti(btn) {
+            $(btn).closest('tr').remove();
+
+            var cnt = 0;
+
+            $("#paslaugos_tbl tbody tr").each(function () {
+                var tmp_row = "<tr>" + $(this).html() + "</tr>";
+                var new_tmp_row = tmp_row.replace(/\[(.)\]/g, "[" + cnt + "]");
+                new_tmp_row = new_tmp_row.replace(/\_(.)\_/g, "_" + cnt + "_");
+                $(this).replaceWith(new_tmp_row);
+                cnt = cnt + 1;
+            });
+
+            $('#hCount').val(cnt);
+
+            $(".sel_element").each(function () {
+                $(this).closest("td").find("select").val($(this).text());
+            });
+        }
+    </script>
+}
+
+

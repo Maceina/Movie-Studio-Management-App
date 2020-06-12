@@ -1,0 +1,64 @@
+﻿@model AutoNuoma.ViewModels.VeluojanciosViewModel
+
+@{
+    ViewBag.Title = "Vėluojančios";
+}
+
+<h2>Vėluojančių gražinti automobilį sutarčių ataskaita</h2>
+<p><b>Parengta:</b> @DateTime.Now</p>
+
+@using (Html.BeginForm())
+{
+<div class="form-group">
+    <label>Sutartys nuo: </label>
+    @*<input class="form-inline date-picker" type="datetime" name="nuo" value="@Model.nuo" />*@
+    @Html.EditorFor(model => model.nuo, new { @class = "date-picker" })
+    <label>Sutartys iki: </label>
+    @*<input class="form-inline date-picker" type="datetime" name="iki" value="@Model.iki" />*@
+    @Html.EditorFor(model => model.iki, new { @class = "date-picker" })
+    <input class="btn btn-default" type="submit" value="Atrinkti">
+</div>
+}
+
+    <table class="table table-striped">
+        <tr style="background-color:lightblue">
+            <th>
+                @Html.DisplayNameFor(model => model.sutartys[0].nr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sutartys[0].klientas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sutartys[0].planuojamaGrData)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sutartys[0].faktineGrData)
+            </th>
+        </tr>
+
+        @if (Model.sutartys.Count == 0)
+        {
+            <tr>
+                <td colspan="4" align="center"><b style="color:red;">Nurodytame laikotarpyje nebuvo vėluojančių gražinti automobilį sutarčių</b></td>
+            </tr>
+        }
+
+        @foreach (var item in Model.sutartys)
+        {
+            <tr>
+                <td>
+                    #@Html.DisplayFor(modelItem => item.nr), @Html.DisplayFor(model => item.sutartiesData)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.klientas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.planuojamaGrData)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.faktineGrData)
+                </td>
+            </tr>
+        }
+
+    </table>

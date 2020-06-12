@@ -1,0 +1,66 @@
+﻿@model IEnumerable<AutoNuoma.Models.Klientas>
+
+@{
+    ViewBag.Title = "Klientai";
+}
+
+<h2>Filmai</h2>
+
+<p>
+    @Html.ActionLink("Naujas klientas", "Create", "Klientas", new { @class="btn btn-success"})
+</p>
+<table class="table table-striped datatable">
+    <thead>
+    <tr style="background-color: lightblue">
+        <th>
+            @Html.DisplayNameFor(model => model.asmensKodas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.vardas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pavarde)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gimimoData)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefonas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.epastas)
+        </th>
+        <th style="width: 18%"></th>
+    </tr>
+        </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.asmensKodas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.vardas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pavarde)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gimimoData)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telefonas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.epastas)
+        </td>
+        <td>
+            @Html.ActionLink("Redaguoti", "Edit", new {  id=item.asmensKodas  }, new { @class= "btn btn-primary action" }) 
+            @Html.ActionLink("Šalinti", "Delete", new {  id=item.asmensKodas  }, new { @class= "btn btn-danger action" })
+        </td>
+    </tr>
+}
+        </tbody>
+
+</table>

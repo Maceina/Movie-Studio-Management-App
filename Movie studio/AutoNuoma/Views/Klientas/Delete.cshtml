@@ -1,0 +1,79 @@
+﻿@model AutoNuoma.Models.Klientas
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Kliento šalinimas</h2>
+
+<h3>Ar tikrai norite pašalinti šį klientą?</h3>
+<div>
+    <h4>Klientas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.asmensKodas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.asmensKodas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.vardas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.vardas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pavarde)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pavarde)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gimimoData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gimimoData)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefonas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefonas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.epastas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.epastas)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color">
+        @if (ViewBag.naudojama != null)
+        {
+            <h5 style="color:red">@ViewBag.naudojama</h5>
+        }
+        else
+        {
+            <input type="submit" value="Šalinti" class="btn btn-danger" />
+        }
+        @Html.ActionLink("Atgal į sąrašą", "Index", "Klientas", new { @class = "btn btn-default" })
+    </div>
+    }
+</div>

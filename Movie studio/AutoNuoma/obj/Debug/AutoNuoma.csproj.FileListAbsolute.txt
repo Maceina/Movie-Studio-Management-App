@@ -1,0 +1,252 @@
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\WebGrease.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\MySql.Data.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\MySql.Data.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\MySql.Data.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\WebGrease.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\MySql.Data.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\maceina\Desktop\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\MySql.Data.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\WebGrease.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\MySql.Data.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\maceina\Desktop\Kino Studija\AutoNuoma\obj\Debug\AutoNuoma.pdb

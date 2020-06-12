@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AutoNuoma.ViewModels.ModelisViewModel>
+
+@{
+    ViewBag.Title = "Iranga";
+}
+
+<h2>Kino Iranga</h2>
+
+<p>
+    @Html.ActionLink("Nauja iranga", "Create", "Modelis", new { @class="btn btn-success"})
+</p>
+<table class="table table-striped datatable">
+    <thead>
+    <tr style="background-color: lightblue">
+        <th>
+            @Html.DisplayNameFor(model => model.id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pavadinimas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.marke)
+        </th>
+        <th style="width: 18%"></th>
+    </tr>
+        </thead>
+    <tbody>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pavadinimas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.marke)
+        </td>
+        <td>
+            @Html.ActionLink("Redaguoti", "Edit", new { id = item.id }, new { @class= "btn btn-primary action" }) 
+            @Html.ActionLink("Šalinti", "Delete", new { id = item.id }, new { @class= "btn btn-danger action" })
+        </td>
+    </tr>
+}
+        </tbody>
+
+</table>

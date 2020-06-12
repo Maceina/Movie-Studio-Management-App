@@ -1,0 +1,57 @@
+﻿@model AutoNuoma.ViewModels.PslgAtaskaitaViewModel
+
+@{
+    ViewBag.Title = "Darbo sutarciu ataskaitos";
+}
+
+<h2>Kino studijos, kuriose yra ir aktoriu ir darbuotoju</h2>
+<p><b>Parengta:</b> @DateTime.Now</p>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+       <label>Aktorystes sutartis nuo: </label>
+       @*<input class="form-inline" type="number" name="nuo" value="@Model.nuo" />*@
+        @Html.EditorFor(model => model.nuo)
+       <label>Aktorystes sutartis iki: </label>
+       @*<input class="form-inline" type="number" name="iki" value="@Model.iki" />*@
+        @Html.EditorFor(model => model.iki)
+       <input class="btn btn-default" type="submit" value="Atrinkti">
+    </div>
+}
+
+    <table class="table table-striped">
+        <tr style="background-color:lightblue">
+            <th>
+                @Html.DisplayNameFor(model => model.paslaugos[0].id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.paslaugos[0].pavadinimas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.paslaugos[0].kiekis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.paslaugos[0].suma)
+            </th>
+        </tr>
+
+        @if(Model.paslaugos.Count == 0) { 
+            <tr>
+                <td colspan="4" align="center"><b style="color:red;">Nurodytame laikotarpyje nebuvo užsakytų paslaugų</b></td>
+            </tr> 
+       }
+
+        @for (int i = 0; i < Model.paslaugos.Count; i++)
+        {
+    <tr>
+        <td>@Model.paslaugos[i].id</td>
+        <td>@Model.paslaugos[i].pavadinimas</td>
+        <td>@Model.paslaugos[i].kiekis</td>
+        <td>@Model.paslaugos[i].suma</td>
+    </tr>
+        }
+
+        <tr style="background-color: lightblue">
+        </tr>
+    </table>
